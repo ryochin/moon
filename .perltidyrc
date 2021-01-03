@@ -1,0 +1,59 @@
+### see man perltidy
+
+## I/O control
+
+--standard-error-output
+--backup-and-modify-in-place
+--backup-file-extension='/'
+
+## Basic Options
+
+--indent-columns=2
+--maximum-line-length=160
+--check-syntax
+--perl-syntax-check-flags='-cwT'
+#--character-encoding=utf8
+--output-line-ending=unix
+
+## Code Indentation Control
+
+--continuation-indentation=2
+--outdent-long-quotes
+--closing-token-indentation=0
+
+# tightness
+--paren-tightness=1
+--square-bracket-tightness=1
+--brace-tightness=1
+--block-brace-tightness=1
+
+--nospace-for-semicolon
+
+## Comment Controls
+
+--minimum-space-to-comment=4
+--delete-closing-side-comments
+
+## Skipping Selected Sections of Code
+
+## Line Break Control
+
+--freeze-newlines
+--opening-token-right
+--vertical-tightness=2
+--vertical-tightness-closing=1
+--want-break-before="% + - * / x != == >= <= =~ !~ < > | & >= < = **= += *= &= <<= &&= -= /= |= >>= ||= .= %= ^= x="
+
+## Controlling List Formatting
+
+--break-at-old-comma-breakpoints
+
+## Retaining or Ignoring Existing Line Breaks
+
+## Blank Line Control
+
+--freeze-blank-lines
+
+## Styles
+
+## Other Controls

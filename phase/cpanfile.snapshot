@@ -1,0 +1,22 @@
+# carton snapshot format: version 1.0
+DISTRIBUTIONS
+  Astro-MoonPhase-0.60
+    pathname: B/BR/BRETT/Astro-MoonPhase-0.60.tar.gz
+    provides:
+      Astro::MoonPhase 0.60
+    requirements:
+      ExtUtils::MakeMaker 0
+  Jcode-2.07
+    pathname: D/DA/DANKOGAI/Jcode-2.07.tar.gz
+    provides:
+      Jcode 2.07
+      Jcode::Constants 2.00
+      Jcode::H2Z 2.00
+      Jcode::Tr 2.00
+      Jcode::Unicode 2.00
+      Jcode::Unicode::Constants 2.00
+      Jcode::Unicode::NoXS 2.00
+      Jcode::_Classic 2.00
+    requirements:
+      ExtUtils::MakeMaker 0
+      MIME::Base64 2.1
